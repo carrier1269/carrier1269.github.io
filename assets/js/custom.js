@@ -3,8 +3,6 @@ window.addEventListener("load", (function() {
     const en = document.getElementsByClassName("en");
     const koreanSwitch = document.getElementById("koreanSwitch");
     const time_span = document.getElementById("current-local-time");
-
-    const c = 1000 * 60 * 60 * 24;
     
     function localTime() {
         // 1. 현재 시간(Locale)
